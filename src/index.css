@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+:root {
+  --bg: black;
+  --fg: white;
+  --card: #0c0f18;
+  --muted: #8a94ab;
+  --accent: #22d3ee;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--fg);
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
